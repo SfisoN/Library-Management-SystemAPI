@@ -168,11 +168,11 @@ The system is built around three core entities:
 
 ---
 
-## 🛠️ Tech Stack (Suggested)
+## 🛠️ Tech Stack
 
 * **Backend:** Django + Django REST Framework
-* **Database:** PostgreSQL / SQLite
-* **Auth:** JWT or DRF Token Authentication
+* **Database:**  SQLite
+* **Auth:**  DRF Token Authentication
 * **ORM:** Django ORM
 
 ---
