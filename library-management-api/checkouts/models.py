@@ -5,7 +5,7 @@ from users.models import User
 
 # Create your models here.
 
-class Checkout(models.Model):
+class Checkouts(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
     checkout_date = models.DateField(auto_now_add=True)
