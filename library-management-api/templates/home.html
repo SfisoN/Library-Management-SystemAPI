@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h2>Welcome to the Library</h2>
+
+<p>Manage books, users, and checkouts efficiently.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Design Patterns</td>
+            <td>Gang of Four</td>
+            <td>Issued</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
