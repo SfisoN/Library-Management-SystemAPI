@@ -135,6 +135,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+print(settings.STATIC_ROOT)
+
 
 #STATICFILES_DIRS = [BASE_DIR / 'static']
 #TEMPLATES[0]['DIRS'] = [BASE_DIR / 'templates']
